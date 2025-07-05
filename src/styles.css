@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(232, 201, 25);
+    color: #333;
+}
+header {
+    background-color: rgb(254, 231, 101);
+    padding: 10px 0;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.navButtons {
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    outline: none;
+    padding: 7px 15px;
+    border-radius: 5px;
+    font-weight: 600;
+
+}
+.contentContainer {
+    width: 65%;
+    margin: auto;
+    background-color: rgb(252, 224, 68);
+    border-radius: 8px;
+    margin-top: 30px;
+    padding: 20px;
+}
+.header {
+    font-size: 2.5rem;
+    margin: auto;
+    font-weight: 700;
+    border: 10px solid #ba5656;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+}
+.homeBorder {
+    div:not(:last-of-type){
+        margin-bottom: 1.5rem;
+        line-height: 25px;
+    }
+    width: 80%;
+    border: 10px solid #ba5656;
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+.testimonyAuthor, .openHoursContainer, .restaurantLocation {
+    font-weight: 600;
+    font-size: 1.1rem;
+}
