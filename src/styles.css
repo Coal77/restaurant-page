@@ -62,3 +62,22 @@ nav{
     font-weight: 600;
     font-size: 1.1rem;
 }
+.menuServices {
+    width: 80%;
+    div:first-of-type{
+        font-weight: 600;
+        font-size: 1.1rem;
+    }
+    .menuServicesDescription {
+        line-height: 20px;
+    }
+    .honeyTeaFlex {
+        display: flex;
+        gap: 1rem;
+        img{
+            width: 60%;
+            border: 1px solid red;
+            border-radius: 10px;
+        }
+    }
+}

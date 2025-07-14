@@ -18,6 +18,7 @@ function factoryImage(className, src) {
 function factoryButton(className, textContent) {
     const createButton = document.createElement('button');
     createButton.setAttribute('class', className);
+    
     createButton.textContent = textContent;
     return createButton;
 }
